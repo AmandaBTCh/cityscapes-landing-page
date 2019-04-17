@@ -438,7 +438,7 @@ the display flex can serve as a backup. */
 body {
   font-family: 'Roboto', serif;
   font-weight: 300;
-  color: #fff;
+  color: #fefffe;
   background: #111;
 }
 
@@ -606,7 +606,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-form .form-group {
-  z-index: 5;
+  z-index: 1;
   margin-top: 1.5rem;
 }
 
@@ -642,10 +642,10 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 0.5rem;
   left: 0.8rem;
-  color: #fff;
+  color: #fefffe;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  z-index: 5;
+  z-index: -1;
 }
 
 .contact-form .form-group textarea {
@@ -850,8 +850,8 @@ header h2 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: 1;
-  z-index: 5;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 #map {
